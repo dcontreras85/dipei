@@ -70,7 +70,8 @@
 =                 TIPOGRAFÍA                       =
 ==================================================*/
 
---font-family:'Poppins',sans-serif;
+/*--font-family:'Poppins',sans-serif;*/
+    --font-family:'Inter',sans-serif;
 
 --font-size-xs:.75rem;
 --font-size-sm:.875rem;
