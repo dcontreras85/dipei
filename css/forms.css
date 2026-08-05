@@ -1,1 +1,449 @@
+/*======================================================================
+    DIPEI
+    FORMS.CSS
+======================================================================*/
 
+
+/*=========================================================
+    CONTENEDOR DEL FORMULARIO
+=========================================================*/
+
+.form-container{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:45px;
+
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+
+    border:1px solid rgba(0,0,0,.05);
+
+}
+
+
+/*=========================================================
+    TITULOS
+=========================================================*/
+
+.form-title{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+}
+
+
+.form-subtitle{
+
+    color:var(--gray);
+
+    margin-bottom:40px;
+
+    line-height:1.7;
+
+}
+
+
+/*=========================================================
+    LABELS
+=========================================================*/
+
+.form-label{
+
+    font-weight:600;
+
+    color:var(--dark);
+
+    margin-bottom:10px;
+
+}
+
+
+/*=========================================================
+    INPUTS
+=========================================================*/
+
+.form-control{
+
+    border-radius:12px;
+
+    border:1px solid #d9d9d9;
+
+    padding:14px 18px;
+
+    font-size:15px;
+
+    transition:.30s;
+
+    box-shadow:none;
+
+}
+
+
+.form-control:focus{
+
+    border-color:var(--secondary);
+
+    box-shadow:0 0 0 .2rem rgba(0,102,204,.15);
+
+}
+
+
+
+/*=========================================================
+    TEXTAREA
+=========================================================*/
+
+textarea.form-control{
+
+    min-height:180px;
+
+    resize:vertical;
+
+}
+
+
+
+/*=========================================================
+    SELECT
+=========================================================*/
+
+.form-select{
+
+    border-radius:12px;
+
+    padding:14px 18px;
+
+    border:1px solid #d9d9d9;
+
+}
+
+
+.form-select:focus{
+
+    border-color:var(--secondary);
+
+    box-shadow:0 0 0 .2rem rgba(0,102,204,.15);
+
+}
+
+
+
+/*=========================================================
+    CHECKBOX
+=========================================================*/
+
+.form-check-input{
+
+    width:20px;
+
+    height:20px;
+
+    cursor:pointer;
+
+}
+
+
+.form-check-input:checked{
+
+    background-color:var(--secondary);
+
+    border-color:var(--secondary);
+
+}
+
+
+.form-check-label{
+
+    margin-left:8px;
+
+}
+
+
+
+/*=========================================================
+    BOTONES
+=========================================================*/
+
+.form-btn{
+
+    background:var(--secondary);
+
+    color:#fff;
+
+    border:none;
+
+    border-radius:40px;
+
+    padding:15px 40px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+
+.form-btn:hover{
+
+    background:#0056b3;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,102,204,.25);
+
+}
+
+
+
+/*=========================================================
+    ICONOS
+=========================================================*/
+
+.input-group-text{
+
+    background:#f5f7fb;
+
+    border:1px solid #d9d9d9;
+
+    color:var(--secondary);
+
+}
+
+
+
+/*=========================================================
+    PLACEHOLDER
+=========================================================*/
+
+::placeholder{
+
+    color:#9aa4b2;
+
+}
+
+
+
+/*=========================================================
+    MENSAJES
+=========================================================*/
+
+.invalid-feedback{
+
+    font-size:.90rem;
+
+}
+
+
+.valid-feedback{
+
+    font-size:.90rem;
+
+}
+
+
+
+/*=========================================================
+    TARJETA DE CONTACTO
+=========================================================*/
+
+.contact-card{
+
+    background:linear-gradient(135deg,var(--primary),#0c3d80);
+
+    color:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    height:100%;
+
+}
+
+
+.contact-card h3{
+
+    margin-bottom:25px;
+
+}
+
+
+.contact-card p{
+
+    opacity:.90;
+
+    line-height:1.8;
+
+}
+
+
+.contact-card i{
+
+    font-size:22px;
+
+    color:#7bc7ff;
+
+    margin-right:15px;
+
+}
+
+
+
+/*=========================================================
+    LISTA CONTACTO
+=========================================================*/
+
+.contact-info{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+
+.contact-info li{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/*=========================================================
+    REDES
+=========================================================*/
+
+.contact-social{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:30px;
+
+}
+
+
+.contact-social a{
+
+    width:45px;
+
+    height:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.12);
+
+    color:white;
+
+    transition:.30s;
+
+    text-decoration:none;
+
+}
+
+
+.contact-social a:hover{
+
+    background:#ffffff;
+
+    color:var(--secondary);
+
+}
+
+
+
+/*=========================================================
+    MAPA
+=========================================================*/
+
+.map-container{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+
+.map-container iframe{
+
+    width:100%;
+
+    height:450px;
+
+    border:0;
+
+}
+
+
+
+/*=========================================================
+    RESPONSIVE
+=========================================================*/
+
+@media(max-width:992px){
+
+.form-container{
+
+padding:35px;
+
+}
+
+.contact-card{
+
+margin-top:40px;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.form-container{
+
+padding:25px;
+
+}
+
+.form-title{
+
+font-size:1.7rem;
+
+}
+
+.form-btn{
+
+width:100%;
+
+}
+
+.map-container iframe{
+
+height:320px;
+
+}
+
+}
