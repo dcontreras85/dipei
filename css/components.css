@@ -1,0 +1,562 @@
+/*======================================================================
+    DIPEI
+    COMPONENTS.CSS
+
+    Biblioteca de Componentes Reutilizables
+
+======================================================================*/
+
+
+
+/*=========================================================
+    BOTONES
+=========================================================*/
+
+.btn-dipei{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:15px 32px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+    cursor:pointer;
+
+    border:none;
+
+    text-decoration:none;
+
+}
+
+
+/*=========================================================
+    BOTÓN PRIMARIO
+=========================================================*/
+
+.btn-primary{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--secondary);
+
+    color:white;
+
+    transform:translateY(-4px);
+
+}
+
+
+/*=========================================================
+    BOTÓN SECUNDARIO
+=========================================================*/
+
+.btn-secondary{
+
+    background:var(--secondary);
+
+    color:white;
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--primary);
+
+}
+
+
+/*=========================================================
+    BOTÓN OUTLINE
+=========================================================*/
+
+.btn-outline{
+
+    background:white;
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+}
+
+.btn-outline:hover{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+
+
+/*=========================================================
+    BOTÓN BLANCO
+=========================================================*/
+
+.btn-white{
+
+    background:white;
+
+    color:var(--primary);
+
+}
+
+.btn-white:hover{
+
+    background:var(--secondary);
+
+    color:white;
+
+}
+
+
+
+/*=========================================================
+    BADGES
+=========================================================*/
+
+.badge-dipei{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    font-size:.82rem;
+
+    font-weight:600;
+
+}
+
+
+.badge-primary{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+
+.badge-secondary{
+
+    background:var(--secondary);
+
+    color:white;
+
+}
+
+
+.badge-light{
+
+    background:var(--light);
+
+    color:var(--primary);
+
+}
+
+
+
+/*=========================================================
+    ICONOS
+=========================================================*/
+
+.icon-circle{
+
+    width:75px;
+
+    height:75px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:32px;
+
+    transition:.35s;
+
+}
+
+
+.icon-circle:hover{
+
+    background:var(--secondary);
+
+    transform:rotate(10deg);
+
+}
+
+
+
+/*=========================================================
+    DIVISOR
+=========================================================*/
+
+.divider{
+
+    width:100px;
+
+    height:4px;
+
+    background:linear-gradient(
+
+        90deg,
+
+        var(--primary),
+
+        var(--secondary)
+
+    );
+
+    margin:20px auto 40px;
+
+}
+
+
+
+/*=========================================================
+    LISTAS CORPORATIVAS
+=========================================================*/
+
+.list-check{
+
+    padding:0;
+
+}
+
+
+.list-check li{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    margin-bottom:15px;
+
+}
+
+
+.list-check i{
+
+    color:var(--secondary);
+
+    margin-right:15px;
+
+    margin-top:4px;
+
+}
+
+
+
+/*=========================================================
+    BREADCRUMB
+=========================================================*/
+
+.breadcrumb-dipei{
+
+    display:flex;
+
+    gap:12px;
+
+    font-size:.9rem;
+
+}
+
+
+.breadcrumb-dipei a{
+
+    color:white;
+
+}
+
+
+.breadcrumb-dipei span{
+
+    color:rgba(255,255,255,.7);
+
+}
+
+
+
+/*=========================================================
+    CONTADORES
+=========================================================*/
+
+.counter{
+
+    text-align:center;
+
+}
+
+
+.counter h2{
+
+    font-size:3rem;
+
+    color:var(--primary);
+
+}
+
+
+.counter p{
+
+    margin-top:10px;
+
+}
+
+
+
+/*=========================================================
+    CAJAS DE INFORMACIÓN
+=========================================================*/
+
+.info-box{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:24px;
+
+    box-shadow:var(--shadow-sm);
+
+    transition:.35s;
+
+}
+
+
+.info-box:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+
+
+/*=========================================================
+    ALERTAS
+=========================================================*/
+
+.alert-dipei{
+
+    border-radius:18px;
+
+    padding:20px 25px;
+
+}
+
+
+.alert-primary{
+
+    background:#E8F1FF;
+
+    color:var(--primary);
+
+}
+
+
+.alert-success{
+
+    background:#EAF8ED;
+
+    color:var(--success);
+
+}
+
+
+.alert-warning{
+
+    background:#FFF9E6;
+
+    color:#856404;
+
+}
+
+
+
+/*=========================================================
+    TAGS
+=========================================================*/
+
+.tag{
+
+    display:inline-block;
+
+    padding:6px 16px;
+
+    border-radius:30px;
+
+    background:var(--gray-100);
+
+    color:var(--primary);
+
+    margin:5px;
+
+    font-size:.85rem;
+
+}
+
+
+
+/*=========================================================
+    TOOLTIP SIMPLE
+=========================================================*/
+
+.tooltip-dipei{
+
+    position:relative;
+
+}
+
+
+.tooltip-dipei:hover::after{
+
+    content:attr(data-tooltip);
+
+    position:absolute;
+
+    bottom:120%;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:8px;
+
+    white-space:nowrap;
+
+}
+
+
+
+/*=========================================================
+    EFECTO GLASS
+=========================================================*/
+
+.glass{
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.18);
+
+}
+
+
+
+/*=========================================================
+    EFECTO HOVER GENERAL
+=========================================================*/
+
+.hover-lift{
+
+    transition:.35s;
+
+}
+
+
+.hover-lift:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+/*=========================================================
+    SOMBRAS
+=========================================================*/
+
+.shadow-soft{
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+
+.shadow-medium{
+
+    box-shadow:var(--shadow-md);
+
+}
+
+
+.shadow-strong{
+
+    box-shadow:var(--shadow-xl);
+
+}
+
+
+
+/*=========================================================
+    BORDES
+=========================================================*/
+
+.border-radius{
+
+    border-radius:25px;
+
+}
+
+
+
+/*=========================================================
+    RESPONSIVE
+=========================================================*/
+
+@media(max-width:768px){
+
+.btn-dipei{
+
+width:100%;
+
+}
+
+.counter h2{
+
+font-size:2.2rem;
+
+}
+
+.info-box{
+
+padding:25px;
+
+}
+
+}
