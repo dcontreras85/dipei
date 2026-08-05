@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIPEI | Ingeniería Electrónica Industrial</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .hero{
+            background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+            url("https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1800&auto=format&fit=crop");
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+            color:white;
+            display:flex;
+            align-items:center;
+        }
+
+        .navbar{
+            background:#0a2342;
+        }
+
+        .navbar-brand{
+            font-weight:bold;
+        }
+
+        .section-title{
+            color:#0a2342;
+            font-weight:bold;
+            margin-bottom:25px;
+        }
+
+        .service-card{
+            transition:.3s;
+            border:none;
+            box-shadow:0 10px 20px rgba(0,0,0,.1);
+        }
+
+        .service-card:hover{
+            transform:translateY(-8px);
+        }
+
+        .icon{
+            font-size:45px;
+            color:#0d6efd;
+        }
+
+        footer{
+            background:#0a2342;
+            color:white;
+            padding:40px 0;
+        }
+
+        .whatsapp{
+            position:fixed;
+            bottom:20px;
+            right:20px;
+            font-size:34px;
+            color:#25D366;
+            z-index:999;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">DIPEI</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="#empresa">Empresa</a></li>
+<li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+<li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<section class="hero" id="inicio">
+
+<div class="container">
+
+<h1 class="display-3 fw-bold">
+
+Ingeniería Electrónica Industrial
+
+</h1>
+
+<p class="lead">
+
+Diagnóstico, reparación, diseño y desarrollo de soluciones electrónicas para la industria.
+
+</p>
+
+<a href="#servicios" class="btn btn-primary btn-lg">
+
+Conoce nuestros servicios
+
+</a>
+
+</div>
+
+</section>
+
+<section class="container py-5" id="empresa">
+
+<h2 class="section-title text-center">
+
+¿Quiénes Somos?
+
+</h2>
+
+<div class="row">
+
+<div class="col-lg-6">
+
+<p>
+
+DIPEI es una empresa especializada en ingeniería electrónica industrial, dedicada al diagnóstico, reparación, diseño, desarrollo e innovación de equipos electrónicos para aplicaciones industriales.
+
+</p>
+
+<p>
+
+Nuestro objetivo es proporcionar soluciones confiables que incrementen la productividad y reduzcan los tiempos de paro en la industria.
+
+</p>
+
+</div>
+
+<div class="col-lg-6">
+
+<img class="img-fluid rounded shadow"
+src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200&auto=format&fit=crop">
+
+</div>
+
+</div>
+
+</section>
+
+<section class="container py-5" id="servicios">
+
+<h2 class="section-title text-center">
+
+Nuestros Servicios
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card service-card p-4 text-center h-100">
+
+<i class="bi bi-cpu icon"></i>
+
+<h4 class="mt-3">
+
+Reparación Industrial
+
+</h4>
+
+<p>
+
+Variadores, PLC, HMI, fuentes de poder, tarjetas electrónicas y equipos industriales.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card service-card p-4 text-center h-100">
+
+<i class="bi bi-motherboard icon"></i>
+
+<h4 class="mt-3">
+
+Diseño Electrónico
+
+</h4>
+
+<p>
+
+Desarrollo de PCB, PCBA, productos electrónicos y sistemas embebidos.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card service-card p-4 text-center h-100">
+
+<i class="bi bi-gear-wide-connected icon"></i>
+
+<h4 class="mt-3">
+
+Automatización
+
+</h4>
+
+<p>
+
+Integración de soluciones para procesos industriales y manufactura.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="container py-5" id="contacto">
+
+<h2 class="section-title text-center">
+
+Contacto
+
+</h2>
+
+<div class="text-center">
+
+<p>
+
+📍 Guadalupe, Nuevo León
+
+</p>
+
+<p>
+
+📧 contacto@dipei.com
+
+</p>
+
+<p>
+
+📞 +52 81 0000 0000
+
+</p>
+
+<a class="btn btn-success btn-lg">
+
+Solicitar Cotización
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container text-center">
+
+<h4>
+
+DIPEI
+
+</h4>
+
+<p>
+
+Ingeniería Electrónica Industrial
+
+</p>
+
+<p>
+
+© 2026 Todos los derechos reservados.
+
+</p>
+
+</div>
+
+</footer>
+
+<a class="whatsapp" href="#">
+
+<i class="bi bi-whatsapp"></i>
+
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
