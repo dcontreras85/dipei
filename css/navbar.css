@@ -103,6 +103,20 @@
 
 }
 
+/*=========================================================
+    LOGO NAVBAR
+=========================================================*/
+
+.logo-navbar{
+
+    height:52px;
+
+    width:auto;
+
+    display:block;
+
+}
+
 
 .navbar.scrolled .navbar-brand img{
 
