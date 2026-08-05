@@ -1,1 +1,537 @@
+/*======================================================================
+    DIPEI
+    RESPONSIVE.CSS
 
+    Adaptación para dispositivos móviles y pantallas grandes
+======================================================================*/
+
+
+/*=========================================================
+    PANTALLAS MUY GRANDES (1600px+)
+=========================================================*/
+
+@media (min-width:1600px){
+
+.container{
+
+    max-width:1450px;
+
+}
+
+.hero{
+
+    min-height:85vh;
+
+}
+
+.hero h1{
+
+    font-size:4.2rem;
+
+}
+
+.section-title{
+
+    font-size:3rem;
+
+}
+
+}
+
+
+
+/*=========================================================
+    DESKTOP (1200px - 1399px)
+=========================================================*/
+
+@media (max-width:1399px){
+
+.hero h1{
+
+    font-size:3.4rem;
+
+}
+
+.section-title{
+
+    font-size:2.5rem;
+
+}
+
+}
+
+
+
+/*=========================================================
+    LAPTOP (992px -1199px)
+=========================================================*/
+
+@media (max-width:1199px){
+
+.hero{
+
+    padding:90px 0;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+.hero p{
+
+    font-size:1.05rem;
+
+}
+
+.section-title{
+
+    font-size:2.3rem;
+
+}
+
+.card-custom{
+
+    padding:35px;
+
+}
+
+}
+
+
+
+/*=========================================================
+    TABLET (768px -991px)
+=========================================================*/
+
+@media (max-width:991px){
+
+body{
+
+    text-align:center;
+
+}
+
+
+/* NAVBAR */
+
+.navbar-brand{
+
+    font-size:1.6rem;
+
+}
+
+.navbar-nav{
+
+    padding-top:20px;
+
+}
+
+.navbar .nav-link{
+
+    padding:12px;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+    padding:70px 0;
+
+}
+
+.hero .row{
+
+    flex-direction:column-reverse;
+
+}
+
+.hero h1{
+
+    font-size:2.5rem;
+
+    margin-top:40px;
+
+}
+
+.hero p{
+
+    font-size:1rem;
+
+}
+
+.hero img{
+
+    max-width:80%;
+
+}
+
+
+/* BOTONES */
+
+.btn-dipei{
+
+    width:100%;
+
+    margin-bottom:15px;
+
+}
+
+
+/* TARJETAS */
+
+.card-custom{
+
+    margin-bottom:30px;
+
+}
+
+
+/* FOOTER */
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-links{
+
+    margin-bottom:40px;
+
+}
+
+.footer-contact li{
+
+    justify-content:center;
+
+}
+
+.footer-social{
+
+    justify-content:center;
+
+}
+
+}
+
+
+
+/*=========================================================
+    CELULARES GRANDES
+=========================================================*/
+
+@media (max-width:767px){
+
+.container{
+
+    padding-left:20px;
+
+    padding-right:20px;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+    padding:60px 0;
+
+}
+
+.hero h1{
+
+    font-size:2rem;
+
+    line-height:1.25;
+
+}
+
+.hero p{
+
+    font-size:.98rem;
+
+}
+
+.hero img{
+
+    max-width:100%;
+
+}
+
+
+/* TITULOS */
+
+.section-title{
+
+    font-size:2rem;
+
+}
+
+.section-subtitle{
+
+    font-size:1rem;
+
+}
+
+
+/* CARDS */
+
+.card-custom{
+
+    padding:28px;
+
+}
+
+.card-custom h3{
+
+    font-size:1.4rem;
+
+}
+
+
+/* ICONOS */
+
+.icon-circle{
+
+    width:65px;
+
+    height:65px;
+
+    font-size:28px;
+
+}
+
+
+/* FORMULARIOS */
+
+.form-container{
+
+    padding:25px;
+
+}
+
+.form-title{
+
+    font-size:1.8rem;
+
+}
+
+
+/* MAPA */
+
+.map-container iframe{
+
+    height:320px;
+
+}
+
+}
+
+
+
+/*=========================================================
+    CELULARES PEQUEÑOS
+=========================================================*/
+
+@media (max-width:575px){
+
+.hero{
+
+    min-height:auto;
+
+}
+
+.hero h1{
+
+    font-size:1.7rem;
+
+}
+
+.hero p{
+
+    font-size:.95rem;
+
+}
+
+.section-title{
+
+    font-size:1.7rem;
+
+}
+
+.section-subtitle{
+
+    font-size:.95rem;
+
+}
+
+.card-custom{
+
+    padding:22px;
+
+}
+
+.footer-top{
+
+    padding:50px 0;
+
+}
+
+.footer-logo{
+
+    max-width:170px;
+
+}
+
+.btn-dipei{
+
+    padding:14px 22px;
+
+    font-size:.95rem;
+
+}
+
+}
+
+
+
+/*=========================================================
+    MÓVILES MUY PEQUEÑOS
+=========================================================*/
+
+@media (max-width:390px){
+
+.hero h1{
+
+    font-size:1.5rem;
+
+}
+
+.hero p{
+
+    font-size:.90rem;
+
+}
+
+.section-title{
+
+    font-size:1.5rem;
+
+}
+
+.section-subtitle{
+
+    font-size:.90rem;
+
+}
+
+.card-custom{
+
+    padding:18px;
+
+}
+
+.icon-circle{
+
+    width:55px;
+
+    height:55px;
+
+    font-size:22px;
+
+}
+
+}
+
+
+
+/*=========================================================
+    IMÁGENES RESPONSIVE
+=========================================================*/
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+
+
+/*=========================================================
+    VIDEOS RESPONSIVE
+=========================================================*/
+
+video{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+
+
+/*=========================================================
+    IFRAMES RESPONSIVE
+=========================================================*/
+
+iframe{
+
+    max-width:100%;
+
+}
+
+
+
+/*=========================================================
+    TABLAS RESPONSIVE
+=========================================================*/
+
+.table-responsive{
+
+    overflow-x:auto;
+
+}
+
+
+
+/*=========================================================
+    UTILIDADES
+=========================================================*/
+
+.hide-mobile{
+
+    display:block;
+
+}
+
+.show-mobile{
+
+    display:none;
+
+}
+
+
+@media(max-width:767px){
+
+.hide-mobile{
+
+    display:none;
+
+}
+
+.show-mobile{
+
+    display:block;
+
+}
+
+}
