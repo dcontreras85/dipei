@@ -265,6 +265,8 @@ Descomente cada línea cuando el archivo exista.
 @import url("cards.css");
 
 @import url("services.css");
+
+@import url("components.css");
 /*
 @import url("buttons.css");
 
