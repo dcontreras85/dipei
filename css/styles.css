@@ -432,3 +432,33 @@ font-size:1rem;
 }
 
 }
+
+
+/*=========================================
+      HERO SERVICIOS
+=========================================*/
+
+.hero-servicios{
+
+    padding:70px 0;
+
+    background:#071B43;
+
+}
+
+.hero-servicios img{
+
+    border-radius:20px;
+
+    transition:.4s;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.45);
+
+}
+
+.hero-servicios img:hover{
+
+    transform:scale(1.01);
+
+}
+
