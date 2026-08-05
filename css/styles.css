@@ -259,9 +259,9 @@ Descomente cada línea cuando el archivo exista.
 
 
 @import url("navbar.css");
-/*
-@import url("hero.css");
 
+@import url("hero.css");
+/*
 @import url("buttons.css");
 
 @import url("cards.css");
