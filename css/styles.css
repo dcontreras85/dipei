@@ -255,26 +255,53 @@ A medida que el proyecto crezca, iremos creando estos archivos.
 Descomente cada línea cuando el archivo exista.
 
 */
+/*=========================================================
+    UTILIDADES
+=========================================================*/
+@import url("utilities.css");
 
-
+/*=========================================================
+    LAYOUT
+=========================================================*/
 
 @import url("navbar.css");
 
 @import url("hero.css");
 
-@import url("cards.css");
+@import url("footer.css");
 
-@import url("services.css");
+/*=========================================================
+    COMPONENTES
+=========================================================*/
 
 @import url("components.css");
 
-@import url("utilities.css");
-
-@import url("footer.css");
+@import url("cards.css");
 
 @import url("forms.css");
 
+/*=========================================================
+    PÁGINAS
+=========================================================*/
+
+@import url("services.css");
+
+
+/*=========================================================
+    EFECTOS
+=========================================================*/
+
 @import url("animations.css");
+
+
+/*=========================================================
+    RESPONSIVE
+=========================================================*/
+
+@import url("responsive.css");
+
+
+
 /*
 @import url("buttons.css");
 
