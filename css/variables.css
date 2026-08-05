@@ -1,1 +1,169 @@
+/*======================================================================
+    DIPEI
+    VARIABLES GLOBALES
+======================================================================*/
 
+/*======================================================================
+
+    ÍNDICE
+
+    1. Colores Corporativos
+    2. Colores de Estado
+    3. Tipografía
+    4. Espaciados
+    5. Bordes
+    6. Sombras
+    7. Transiciones
+    8. Layout
+    9. Z-Index
+
+======================================================================*/
+
+:root{
+
+/*==================================================
+=            COLORES CORPORATIVOS                  =
+==================================================*/
+
+--primary:#0B3D91;
+--primary-dark:#072A63;
+--primary-light:#1D5DC7;
+
+--secondary:#00AEEF;
+--secondary-dark:#0088BB;
+--secondary-light:#42CFFF;
+
+--accent:#00D4FF;
+
+--white:#FFFFFF;
+--light:#F5F8FC;
+--lighter:#FAFBFD;
+
+--gray-100:#F8F9FA;
+--gray-200:#E9ECEF;
+--gray-300:#DEE2E6;
+--gray-400:#CED4DA;
+--gray-500:#ADB5BD;
+--gray-600:#6C757D;
+--gray-700:#495057;
+--gray-800:#343A40;
+--gray-900:#212529;
+
+--black:#000000;
+
+--text-color:#222222;
+
+--heading-color:#0B3D91;
+
+
+/*==================================================
+=            COLORES DE ESTADO                     =
+==================================================*/
+
+--success:#28A745;
+--warning:#FFC107;
+--danger:#DC3545;
+--info:#17A2B8;
+
+
+/*==================================================
+=                 TIPOGRAFÍA                       =
+==================================================*/
+
+--font-family:'Poppins',sans-serif;
+
+--font-size-xs:.75rem;
+--font-size-sm:.875rem;
+--font-size-base:1rem;
+--font-size-lg:1.125rem;
+--font-size-xl:1.25rem;
+--font-size-2xl:1.5rem;
+--font-size-3xl:2rem;
+--font-size-4xl:2.8rem;
+--font-size-5xl:3.6rem;
+
+--font-light:300;
+--font-normal:400;
+--font-medium:500;
+--font-semibold:600;
+--font-bold:700;
+--font-extrabold:800;
+
+
+/*==================================================
+=                ESPACIADOS                        =
+==================================================*/
+
+--space-1:5px;
+--space-2:10px;
+--space-3:15px;
+--space-4:20px;
+--space-5:30px;
+--space-6:40px;
+--space-7:60px;
+--space-8:80px;
+--space-9:120px;
+
+
+/*==================================================
+=                 BORDES                           =
+==================================================*/
+
+--radius-xs:5px;
+--radius-sm:10px;
+--radius-md:18px;
+--radius-lg:28px;
+--radius-xl:40px;
+--radius-circle:50%;
+
+
+/*==================================================
+=                  SOMBRAS                         =
+==================================================*/
+
+--shadow-xs:0 2px 8px rgba(0,0,0,.05);
+
+--shadow-sm:0 6px 18px rgba(0,0,0,.08);
+
+--shadow-md:0 12px 30px rgba(0,0,0,.12);
+
+--shadow-lg:0 18px 50px rgba(0,0,0,.16);
+
+--shadow-xl:0 25px 70px rgba(0,0,0,.20);
+
+
+/*==================================================
+=                TRANSICIONES                      =
+==================================================*/
+
+--transition-fast:.25s ease;
+
+--transition:.35s ease;
+
+--transition-slow:.60s ease;
+
+
+/*==================================================
+=                 LAYOUT                           =
+==================================================*/
+
+--container-width:1320px;
+
+--navbar-height:90px;
+
+--hero-height:85vh;
+
+
+/*==================================================
+=                 Z-INDEX                          =
+==================================================*/
+
+--z-navbar:999;
+
+--z-dropdown:998;
+
+--z-modal:2000;
+
+--z-tooltip:3000;
+
+}
