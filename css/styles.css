@@ -269,6 +269,8 @@ Descomente cada línea cuando el archivo exista.
 @import url("components.css");
 
 @import url("utilities.css");
+
+@import url("footer.css");
 /*
 @import url("buttons.css");
 
@@ -282,7 +284,7 @@ Descomente cada línea cuando el archivo exista.
 
 @import url("contact.css");
 
-@import url("footer.css");
+
 
 @import url("animations.css");
 
