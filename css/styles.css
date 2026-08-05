@@ -1,182 +1,79 @@
 /*======================================================================
+
     DIPEI
     Ingeniería Electrónica e Innovación
 
-    Hoja de Estilos Principal
-    Versión 1.0
+    Archivo Principal de Estilos
+    Versión 2.0
 
-    Autor:
-    David Contreras
-
-=======================================================================*/
-
-
-/*======================================================================
-
-    ÍNDICE
-
-    1. IMPORTACIONES
-    2. VARIABLES GLOBALES
-    3. RESET GENERAL
-    4. ESTILOS GENERALES
-    5. TIPOGRAFÍA
-    6. BOTONES
-    7. NAVBAR
-    8. HERO
-    9. TARJETAS
-   10. SERVICIOS
-   11. PROYECTOS
-   12. NOSOTROS
-   13. CONTACTO
-   14. FOOTER
-   15. ANIMACIONES
-   16. UTILIDADES
-   17. RESPONSIVE
+    Este archivo únicamente importa los módulos CSS
+    del sitio web.
 
 ======================================================================*/
 
 
-
 /*======================================================================
-    1. GOOGLE FONTS
+    GOOGLE FONTS
 ======================================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
-
 /*======================================================================
-    2. VARIABLES GLOBALES
+    VARIABLES GLOBALES
 ======================================================================*/
 
-:root{
-
-    /*=========================
-        Colores Corporativos
-    =========================*/
-
-    --primary:#0B3D91;
-
-    --primary-dark:#072A63;
-
-    --secondary:#00AEEF;
-
-    --accent:#00D4FF;
-
-    --white:#FFFFFF;
-
-    --light:#F5F8FC;
-
-    --gray:#6C757D;
-
-    --dark:#1A1A1A;
-
-    --black:#000000;
-
-    --success:#28A745;
-
-    --danger:#DC3545;
-
-
-
-    /*=========================
-            Sombras
-    =========================*/
-
-    --shadow-sm:0 5px 15px rgba(0,0,0,.08);
-
-    --shadow-md:0 12px 30px rgba(0,0,0,.12);
-
-    --shadow-lg:0 20px 50px rgba(0,0,0,.15);
-
-
-
-    /*=========================
-            Bordes
-    =========================*/
-
-    --radius-sm:10px;
-
-    --radius-md:18px;
-
-    --radius-lg:30px;
-
-
-
-    /*=========================
-        Transiciones
-    =========================*/
-
-    --transition:.35s ease;
-
-
-
-    /*=========================
-            Layout
-    =========================*/
-
-    --max-width:1320px;
-
-}
-
+@import url("variables.css");
 
 
 /*======================================================================
-    3. RESET GENERAL
+    RESET GENERAL
 ======================================================================*/
 
 *{
-
     margin:0;
-
     padding:0;
-
     box-sizing:border-box;
-
 }
-
-
 
 html{
-
     scroll-behavior:smooth;
-
 }
-
-
 
 body{
 
-    font-family:'Poppins',sans-serif;
+    font-family:var(--font-family);
+
+    font-size:var(--font-size-base);
+
+    color:var(--text-color);
 
     background:var(--white);
 
-    color:var(--dark);
+    line-height:1.7;
 
     overflow-x:hidden;
-
-    line-height:1.7;
 
 }
 
 
-
 /*======================================================================
-    4. IMÁGENES
+    IMÁGENES
 ======================================================================*/
 
 img{
 
+    display:block;
+
     max-width:100%;
 
-    display:block;
+    height:auto;
 
 }
 
 
-
 /*======================================================================
-    5. LINKS
+    ENLACES
 ======================================================================*/
 
 a{
@@ -188,37 +85,34 @@ a{
 }
 
 
-
 /*======================================================================
-    6. LISTAS
+    LISTAS
 ======================================================================*/
 
 ul{
 
     list-style:none;
 
-    padding:0;
-
     margin:0;
+
+    padding:0;
 
 }
 
 
-
 /*======================================================================
-    7. CONTENEDOR PERSONALIZADO
+    CONTENEDOR
 ======================================================================*/
 
 .container{
 
-    max-width:var(--max-width);
+    max-width:var(--container-width);
 
 }
 
 
-
 /*======================================================================
-    8. SECCIONES
+    SECCIONES
 ======================================================================*/
 
 section{
@@ -228,14 +122,59 @@ section{
 }
 
 
+/*======================================================================
+    TIPOGRAFÍA
+======================================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    color:var(--heading-color);
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+h1{
+
+    font-size:3.2rem;
+
+}
+
+h2{
+
+    font-size:2.6rem;
+
+}
+
+h3{
+
+    font-size:2rem;
+
+}
+
+p{
+
+    color:var(--gray-700);
+
+    margin-bottom:20px;
+
+}
+
 
 /*======================================================================
-    9. TITULOS
+    TITULOS DE SECCIÓN
 ======================================================================*/
 
 .section-title{
 
-    font-size:2.6rem;
+    font-size:2.8rem;
 
     font-weight:700;
 
@@ -245,29 +184,32 @@ section{
 
 }
 
-
-
 .section-subtitle{
-
-    font-size:1.15rem;
-
-    color:var(--gray);
 
     max-width:900px;
 
     margin:auto;
 
+    font-size:1.15rem;
+
+    color:var(--gray-600);
+
 }
 
 
-
 /*======================================================================
-    10. UTILIDADES
+    UTILIDADES
 ======================================================================*/
 
 .bg-light-custom{
 
     background:var(--light);
+
+}
+
+.bg-primary-custom{
+
+    background:var(--primary);
 
 }
 
@@ -294,3 +236,48 @@ section{
     border-radius:var(--radius-md);
 
 }
+
+.text-center{
+
+    text-align:center;
+
+}
+
+
+/*======================================================================
+    IMPORTACIÓN DE MÓDULOS
+======================================================================*/
+
+/*
+
+A medida que el proyecto crezca, iremos creando estos archivos.
+
+Descomente cada línea cuando el archivo exista.
+
+*/
+
+/*
+
+@import url("navbar.css");
+
+@import url("hero.css");
+
+@import url("buttons.css");
+
+@import url("cards.css");
+
+@import url("services.css");
+
+@import url("projects.css");
+
+@import url("about.css");
+
+@import url("contact.css");
+
+@import url("footer.css");
+
+@import url("animations.css");
+
+@import url("responsive.css");
+
+*/
