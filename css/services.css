@@ -1,1 +1,528 @@
+/*======================================================================
+    DIPEI
+    SERVICES.CSS
+======================================================================*/
 
+
+/*=========================================================
+    HERO DE SERVICIOS
+=========================================================*/
+
+.hero-services{
+
+    position:relative;
+
+    padding:120px 0;
+
+    background:linear-gradient(135deg,
+                var(--primary-dark),
+                var(--primary),
+                var(--secondary));
+
+    overflow:hidden;
+
+}
+
+
+.hero-services::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.20);
+
+}
+
+
+.hero-services .container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+.hero-services h1{
+
+    color:white;
+
+    font-size:3.5rem;
+
+    font-weight:800;
+
+}
+
+
+.hero-services p{
+
+    color:rgba(255,255,255,.92);
+
+    font-size:1.2rem;
+
+}
+
+
+
+/*=========================================================
+    IMAGEN HERO
+=========================================================*/
+
+.hero-services img{
+
+    border-radius:28px;
+
+    box-shadow:var(--shadow-xl);
+
+}
+
+
+
+/*=========================================================
+    INTRODUCCIÓN
+=========================================================*/
+
+.services-intro{
+
+    padding:100px 0;
+
+    background:white;
+
+}
+
+
+.services-intro h2{
+
+    color:var(--primary);
+
+    margin-bottom:30px;
+
+}
+
+
+.services-intro p{
+
+    font-size:1.08rem;
+
+}
+
+
+
+/*=========================================================
+    GRID
+=========================================================*/
+
+.services-grid{
+
+    padding:100px 0;
+
+    background:var(--light);
+
+}
+
+
+
+/*=========================================================
+    TARJETAS
+=========================================================*/
+
+.service-card{
+
+    background:white;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    box-shadow:var(--shadow-sm);
+
+    height:100%;
+
+}
+
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow-xl);
+
+}
+
+
+.service-card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+
+.service-content{
+
+    padding:35px;
+
+}
+
+
+.service-content h3{
+
+    color:var(--primary);
+
+    margin-bottom:18px;
+
+    font-size:1.45rem;
+
+}
+
+
+.service-content p{
+
+    color:var(--gray-700);
+
+    min-height:110px;
+
+}
+
+
+
+/*=========================================================
+    BOTÓN
+=========================================================*/
+
+.service-btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    transition:.35s;
+
+    font-weight:600;
+
+}
+
+
+.service-btn:hover{
+
+    background:var(--secondary);
+
+    color:white;
+
+}
+
+
+
+/*=========================================================
+    BENEFICIOS
+=========================================================*/
+
+.service-benefits{
+
+    padding:90px 0;
+
+    background:white;
+
+}
+
+
+.benefit-box{
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+
+.benefit-box i{
+
+    font-size:58px;
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+}
+
+
+.benefit-box h4{
+
+    color:var(--primary);
+
+}
+
+
+
+/*=========================================================
+    ESTADÍSTICAS
+=========================================================*/
+
+.service-stats{
+
+    padding:90px 0;
+
+    background:linear-gradient(135deg,
+                var(--primary),
+                var(--primary-dark));
+
+    color:white;
+
+}
+
+
+.stat-box{
+
+    text-align:center;
+
+}
+
+
+.stat-box h2{
+
+    color:white;
+
+    font-size:3rem;
+
+}
+
+
+.stat-box p{
+
+    color:white;
+
+}
+
+
+
+/*=========================================================
+    CTA
+=========================================================*/
+
+.services-cta{
+
+    padding:100px 0;
+
+    background:var(--light);
+
+    text-align:center;
+
+}
+
+
+.services-cta h2{
+
+    color:var(--primary);
+
+}
+
+
+.services-cta p{
+
+    max-width:900px;
+
+    margin:auto auto 40px;
+
+}
+
+
+
+/*=========================================================
+    PÁGINAS INDIVIDUALES
+=========================================================*/
+
+.service-page{
+
+    padding:100px 0;
+
+}
+
+
+.service-page h1{
+
+    color:var(--primary);
+
+    margin-bottom:30px;
+
+}
+
+
+.service-page img{
+
+    border-radius:25px;
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+
+.service-description{
+
+    margin-top:40px;
+
+}
+
+
+.service-description p{
+
+    font-size:1.08rem;
+
+}
+
+
+
+/*=========================================================
+    BULLETS
+=========================================================*/
+
+.service-list{
+
+    margin-top:35px;
+
+}
+
+
+.service-list li{
+
+    padding:14px 0;
+
+    border-bottom:1px solid var(--gray-200);
+
+    display:flex;
+
+    align-items:flex-start;
+
+}
+
+
+.service-list li i{
+
+    color:var(--secondary);
+
+    font-size:20px;
+
+    margin-right:15px;
+
+    margin-top:3px;
+
+}
+
+
+
+/*=========================================================
+    GALERÍA
+=========================================================*/
+
+.service-gallery{
+
+    margin-top:60px;
+
+}
+
+
+.service-gallery img{
+
+    border-radius:18px;
+
+    transition:.4s;
+
+}
+
+
+.service-gallery img:hover{
+
+    transform:scale(1.04);
+
+}
+
+
+
+/*=========================================================
+    RESPONSIVE
+=========================================================*/
+
+@media(max-width:992px){
+
+.hero-services{
+
+text-align:center;
+
+}
+
+.hero-services h1{
+
+font-size:2.8rem;
+
+}
+
+.service-content{
+
+padding:28px;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.hero-services{
+
+padding:80px 0;
+
+}
+
+.hero-services h1{
+
+font-size:2.3rem;
+
+}
+
+.service-card img{
+
+height:210px;
+
+}
+
+}
+
+
+@media(max-width:576px){
+
+.hero-services h1{
+
+font-size:2rem;
+
+}
+
+.service-content{
+
+padding:22px;
+
+}
+
+.service-btn{
+
+display:block;
+
+text-align:center;
+
+}
+
+}
