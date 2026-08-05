@@ -1,1 +1,434 @@
+/*====================================================
+ DIPEI
+ Ingeniería Electrónica Industrial
+ Stylesheet Principal
+ Versión 1.0
+=====================================================*/
 
+/*=============================
+      GOOGLE FONTS
+=============================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*=============================
+      VARIABLES
+=============================*/
+
+:root{
+
+    --primary:#0B3D91;
+    --secondary:#1565C0;
+
+    --accent:#F57C00;
+
+    --dark:#1F2937;
+
+    --gray:#5B6574;
+
+    --light:#F5F7FA;
+
+    --white:#FFFFFF;
+
+    --success:#22C55E;
+
+    --shadow:0px 10px 25px rgba(0,0,0,.10);
+
+    --radius:12px;
+
+    --transition:.35s;
+
+}
+
+
+/*=============================
+      RESET
+=============================*/
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:var(--white);
+
+color:var(--dark);
+
+line-height:1.7;
+
+overflow-x:hidden;
+
+}
+
+
+/*=============================
+      LINKS
+=============================*/
+
+a{
+
+text-decoration:none;
+
+transition:var(--transition);
+
+}
+
+a:hover{
+
+text-decoration:none;
+
+}
+
+
+/*=============================
+      IMAGES
+=============================*/
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+
+/*=============================
+      TITLES
+=============================*/
+
+h1,h2,h3,h4,h5{
+
+font-weight:700;
+
+color:var(--dark);
+
+}
+
+.section-title{
+
+font-size:2.3rem;
+
+font-weight:700;
+
+margin-bottom:15px;
+
+color:var(--primary);
+
+}
+
+.section-subtitle{
+
+color:var(--gray);
+
+font-size:1.1rem;
+
+margin-bottom:50px;
+
+}
+
+
+/*=============================
+      NAVBAR
+=============================*/
+
+.navbar{
+
+background:rgba(11,61,145,.96);
+
+backdrop-filter:blur(8px);
+
+box-shadow:var(--shadow);
+
+}
+
+.navbar-brand{
+
+font-size:1.7rem;
+
+font-weight:800;
+
+letter-spacing:1px;
+
+}
+
+.nav-link{
+
+color:white !important;
+
+font-weight:500;
+
+margin-left:18px;
+
+}
+
+.nav-link:hover{
+
+color:#FFD54F !important;
+
+}
+
+
+/*=============================
+      BUTTONS
+=============================*/
+
+.btn-primary-custom{
+
+background:var(--accent);
+
+color:white;
+
+padding:14px 34px;
+
+border-radius:50px;
+
+font-weight:600;
+
+transition:var(--transition);
+
+display:inline-block;
+
+}
+
+.btn-primary-custom:hover{
+
+background:#d96b00;
+
+transform:translateY(-3px);
+
+color:white;
+
+}
+
+
+/*=============================
+      HERO
+=============================*/
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+background:
+
+linear-gradient(rgba(0,25,65,.82),rgba(0,25,65,.82));
+
+color:white;
+
+padding-top:80px;
+
+}
+
+.hero h1{
+
+font-size:4rem;
+
+font-weight:800;
+
+line-height:1.2;
+
+color:white;
+
+}
+
+.hero p{
+
+font-size:1.25rem;
+
+margin:30px 0;
+
+color:#E8EAF6;
+
+}
+
+
+/*=============================
+      CARDS
+=============================*/
+
+.card-custom{
+
+border:none;
+
+border-radius:var(--radius);
+
+box-shadow:var(--shadow);
+
+padding:35px;
+
+transition:var(--transition);
+
+background:white;
+
+height:100%;
+
+}
+
+.card-custom:hover{
+
+transform:translateY(-8px);
+
+}
+
+.card-icon{
+
+font-size:52px;
+
+color:var(--primary);
+
+margin-bottom:20px;
+
+}
+
+
+/*=============================
+      FOOTER
+=============================*/
+
+footer{
+
+background:#081F45;
+
+color:white;
+
+padding:60px 0 30px;
+
+}
+
+footer h4{
+
+color:white;
+
+margin-bottom:20px;
+
+}
+
+footer a{
+
+color:#D7E3FF;
+
+}
+
+footer a:hover{
+
+color:white;
+
+}
+
+.footer-bottom{
+
+border-top:1px solid rgba(255,255,255,.15);
+
+margin-top:40px;
+
+padding-top:20px;
+
+text-align:center;
+
+}
+
+
+/*=============================
+      WHATSAPP
+=============================*/
+
+.whatsapp{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+background:#25D366;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:32px;
+
+color:white;
+
+box-shadow:var(--shadow);
+
+z-index:999;
+
+}
+
+.whatsapp:hover{
+
+transform:scale(1.1);
+
+color:white;
+
+}
+
+
+/*=============================
+      RESPONSIVE
+=============================*/
+
+@media(max-width:992px){
+
+.hero h1{
+
+font-size:2.8rem;
+
+}
+
+.section-title{
+
+font-size:2rem;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:2.3rem;
+
+}
+
+.hero p{
+
+font-size:1rem;
+
+}
+
+}
