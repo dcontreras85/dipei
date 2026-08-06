@@ -43,7 +43,7 @@
     BOTÓN PRIMARIO
 =========================================================*/
 
-.btn-primary{
+.btn-primary-dipei{
 
     background:var(--primary);
 
@@ -51,7 +51,7 @@
 
 }
 
-.btn-primary:hover{
+.btn-primary-dipei:hover{
 
     background:var(--secondary);
 
