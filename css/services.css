@@ -526,3 +526,99 @@ text-align:center;
 }
 
 }
+
+/*=========================================================
+    SERVICIOS RÁPIDOS
+=========================================================*/
+
+.services-icons{
+
+    padding:80px 0;
+
+    background:var(--primary-dark);
+
+}
+
+.service-icon{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:white;
+
+    padding:25px 15px;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.service-icon:hover{
+
+    background:rgba(255,255,255,.08);
+
+    transform:translateY(-8px);
+
+    color:var(--secondary);
+
+}
+
+.service-icon i{
+
+    font-size:55px;
+
+    margin-bottom:18px;
+
+    color:var(--secondary);
+
+}
+
+.service-icon h5{
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.service-icon p{
+
+    color:rgba(255,255,255,.75);
+
+    font-size:.88rem;
+
+    margin:0;
+
+}
+
+@media(max-width:768px){
+
+.service-icon{
+
+margin-bottom:25px;
+
+}
+
+.service-icon i{
+
+font-size:45px;
+
+}
+
+}
