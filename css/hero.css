@@ -502,9 +502,11 @@
 
 .hero-content{
 
-    max-width:650px;
+    width:100%;
 
-    color:white;
+    max-width:640px;
+
+    padding-top:90px;
 
 }
 
