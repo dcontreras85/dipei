@@ -491,6 +491,12 @@
 
     z-index:3;
 
+    min-height:88vh;
+
+    display:flex;
+
+    align-items:center;
+
 }
 
 .hero-content{
