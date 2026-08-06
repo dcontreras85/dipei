@@ -562,28 +562,32 @@ padding:25px;
 }
 
 /*=========================================================
-    BOTÓN SECUNDARIO HERO
+    BOTÓN HERO SECUNDARIO
 =========================================================*/
 
 .btn-hero-outline{
 
-    display:inline-block;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
 
-    padding:14px 34px;
+    padding:14px 32px;
 
-    border:2px solid white;
+    margin-left:15px;
+
+    border:2px solid #ffffff;
 
     border-radius:50px;
 
-    color:white;
+    background:rgba(255,255,255,.15);
 
-    text-decoration:none;
+    color:#ffffff;
 
     font-weight:600;
 
-    transition:.35s;
+    text-decoration:none;
 
-    background:rgba(255,255,255,.08);
+    transition:.35s;
 
     backdrop-filter:blur(8px);
 
@@ -591,8 +595,12 @@ padding:25px;
 
 .btn-hero-outline:hover{
 
-    background:white;
+    background:#ffffff;
 
     color:var(--primary);
+
+    transform:translateY(-3px);
+
+    text-decoration:none;
 
 }
