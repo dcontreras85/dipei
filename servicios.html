@@ -1,266 +1,296 @@
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="es">
 
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-    <title>Servicios | DIPEI</title>
+<title>
 
-    <!-- Bootstrap -->
+Servicios | DIPEI Ingeniería Electrónica
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet">
+</title>
 
-    <!-- Bootstrap Icons -->
+<meta name="description"
+content="Servicios profesionales de ingeniería electrónica, reparación industrial, desarrollo de hardware, firmware, sistemas de prueba funcional (ATE) y consultoría tecnológica.">
 
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="icon"
+href="images/favicon.png">
 
-    <!-- CSS DIPEI -->
+<!-- Bootstrap -->
 
-    <link rel="stylesheet"
-          href="css/styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- CSS -->
+
+<link rel="stylesheet"
+href="css/styles.css">
 
 </head>
 
 <body>
 
+<!--=========================================
+                NAVBAR
+==========================================-->
 
-
-<!--=========================================================
-    SERVICIOS
-==========================================================-->
-
-<section class="services-section">
+<nav class="navbar navbar-expand-lg fixed-top">
 
 <div class="container">
 
-<div class="text-center mb-5">
+<a class="navbar-brand"
+href="index.html">
 
-<h2 class="section-title">
-Nuestros Servicios
+<img src="images/logo-horizontal.png"
+alt="DIPEI">
+
+</a>
+
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse"
+id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="index.html">
+
+Inicio
+
+</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link active"
+href="servicios.html">
+
+Servicios
+
+</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="proyectos.html">
+
+Proyectos
+
+</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="nosotros.html">
+
+Nosotros
+
+</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="contacto.html">
+
+Contacto
+
+</a>
+
+</li>
+
+</ul>
+
+<a href="contacto.html"
+class="btn btn-primary ms-lg-4">
+
+Solicitar Cotización
+
+</a>
+
+</div>
+
+</div>
+
+</nav>
+
+
+    <!--=========================================
+                HERO
+==========================================-->
+
+<header class="hero-servicios">
+
+<img src="images/hero-servicios.png"
+class="hero-image"
+alt="Servicios DIPEI">
+
+<div class="hero-overlay"></div>
+
+<div class="container">
+
+<div class="hero-content">
+
+<span class="hero-tag">
+
+DIPEI Ingeniería Electrónica
+
+</span>
+
+<h1>
+
+Nuestras Capacidades
+de Ingeniería
+
+</h1>
+
+<p>
+
+Desarrollamos soluciones electrónicas para todo el ciclo de vida de un producto,
+desde el diagnóstico y reparación de equipos industriales hasta el diseño electrónico,
+hardware, firmware, sistemas de prueba funcional (ATE) y consultoría especializada.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="contacto.html"
+class="btn btn-primary">
+
+Solicitar Cotización
+
+</a>
+
+<a href="#servicios"
+class="btn btn-outline-light">
+
+Explorar Servicios
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<!--=========================================
+            INTRODUCCIÓN
+==========================================-->
+
+<section class="intro-section">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-10 text-center">
+
+<h2>
+
+Ingeniería Electrónica para la Industria
+
 </h2>
 
-<p class="section-subtitle">
+<p>
 
-Soluciones integrales de ingeniería electrónica para la industria,
-desarrollo de productos y reparación especializada.
+En DIPEI combinamos experiencia en diagnóstico industrial,
+reparación electrónica especializada, desarrollo de hardware,
+firmware y sistemas de prueba para ofrecer soluciones confiables,
+escalables y preparadas para manufactura.
+
+Nuestro objetivo es acompañar al cliente desde la identificación
+del problema hasta la implementación de una solución completa.
 
 </p>
 
 </div>
 
-<div class="row g-4">
-
-<!-- DIAGNÓSTICO -->
-
-<div class="col-lg-4 col-md-6">
-
-<a href="diagnostico-industrial.html" class="service-card">
-
-<div class="service-icon">
-<i class="bi bi-search"></i>
 </div>
 
-<h3>Diagnóstico Industrial</h3>
+</div>
+
+</section> 
+
+    <!--=========================================
+            SERVICIOS
+==========================================-->
+
+<section id="servicios"
+class="services-section">
+
+<div class="container">
+
+<div class="section-header">
+
+<h2>
+
+Nuestros Servicios
+
+</h2>
 
 <p>
 
-Diagnóstico electrónico de equipos industriales,
-variadores, fuentes de alimentación y tarjetas.
+Seleccione una de nuestras capacidades para conocer
+el alcance completo del servicio.
 
 </p>
 
-<span class="service-link">
-
-Ver Servicio
-<i class="bi bi-arrow-right"></i>
-
-</span>
-
-</a>
-
 </div>
 
-<!-- REPARACIÓN -->
-
-<div class="col-lg-4 col-md-6">
-
-<a href="reparacion-electronica.html" class="service-card">
-
-<div class="service-icon">
-
-<i class="bi bi-tools"></i>
-
-</div>
-
-<h3>Reparación Electrónica</h3>
-
-<p>
-
-Reparación especializada de tarjetas electrónicas,
-equipos industriales y sistemas electrónicos.
-
-</p>
-
-<span class="service-link">
-
-Ver Servicio
-<i class="bi bi-arrow-right"></i>
-
-</span>
-
-</a>
-
-</div>
-
-<!-- HARDWARE -->
-
-<div class="col-lg-4 col-md-6">
-
-<a href="diseno-electronico-hardware.html" class="service-card">
-
-<div class="service-icon">
-
-<i class="bi bi-cpu"></i>
-
-</div>
-
-<h3>Diseño Electrónico</h3>
-
-<p>
-
-Diseño de PCB, PCBA, FPC, esquemáticos,
-DFM, DFA y documentación de fabricación.
-
-</p>
-
-<span class="service-link">
-
-Ver Servicio
-<i class="bi bi-arrow-right"></i>
-
-</span>
-
-</a>
-
-</div>
-
-<!-- FIRMWARE -->
-
-<div class="col-lg-4 col-md-6">
-
-<a href="firmware-software.html" class="service-card">
-
-<div class="service-icon">
-
-<i class="bi bi-code-slash"></i>
-
-</div>
-
-<h3>Firmware y Software</h3>
-
-<p>
-
-Desarrollo de firmware para microcontroladores,
-interfaces HMI y software de prueba.
-
-</p>
-
-<span class="service-link">
-
-Ver Servicio
-<i class="bi bi-arrow-right"></i>
-
-</span>
-
-</a>
-
-</div>
-
-<!-- ATE -->
-
-<div class="col-lg-4 col-md-6">
-
-<a href="sistemas-ate.html" class="service-card">
-
-<div class="service-icon">
-
-<i class="bi bi-clipboard2-pulse"></i>
-
-</div>
-
-<h3>Sistemas ATE</h3>
-
-<p>
-
-Diseño de estaciones de prueba funcional,
-fixtures y automatización de validación.
-
-</p>
-
-<span class="service-link">
-
-Ver Servicio
-<i class="bi bi-arrow-right"></i>
-
-</span>
-
-</a>
-
-</div>
-
-<!-- CONSULTORÍA -->
-
-<div class="col-lg-4 col-md-6">
-
-<a href="consultoria-ingenieria.html" class="service-card">
-
-<div class="service-icon">
-
-<i class="bi bi-lightbulb"></i>
-
-</div>
-
-<h3>Consultoría e Ingeniería</h3>
-
-<p>
-
-Asesoría técnica, optimización de procesos,
-ingeniería electrónica y soporte especializado.
-
-</p>
-
-<span class="service-link">
-
-Ver Servicio
-<i class="bi bi-arrow-right"></i>
-
-</span>
-
-</a>
-
-</div>
-
-</div>
+<!-- AQUÍ IRÁN LAS 6 TARJETAS -->
 
 </div>
 
 </section>
 
-        <!-- Bootstrap JS -->
+<footer class="footer">
+
+<div class="container text-center">
+
+<p>
+
+© 2026 DIPEI Ingeniería Electrónica
+
+</p>
+
+</div>
+    
+
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- JavaScript DIPEI -->
-
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
-
+    
+    
