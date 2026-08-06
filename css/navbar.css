@@ -125,7 +125,7 @@
 /*======================================================================
     MENÚ
 ======================================================================*/
-
+/*
 .navbar-nav{
 
     display:flex;
@@ -159,7 +159,39 @@
     color:var(--primary);
 
 }
+*/
 
+@media (max-width:991px){
+
+    .navbar-collapse{
+
+        background:rgba(11,61,145,.98);
+
+        margin-top:20px;
+
+        padding:25px;
+
+        border-radius:20px;
+
+        text-align:center;
+
+    }
+
+    .navbar-nav{
+
+        gap:12px;
+
+    }
+
+    .navbar .btn-navbar{
+
+        width:100%;
+
+        margin:20px 0 0;
+
+    }
+
+}
 
 /*======================================================================
     EFECTO HOVER
